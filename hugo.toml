@@ -1,0 +1,8 @@
+baseURL = 'https://benburdach.github.io/'
+locale = 'en-us'
+title = 'Benjamín Burdach - Security Research'
+theme = 'hugo-bearclub'
+
+[params]
+  ShowReadingTime = true
+  ShowPostNavLinks = true
