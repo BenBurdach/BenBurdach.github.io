@@ -1,8 +1,51 @@
 baseURL = 'https://benburdach.github.io/'
-locale = 'en-us'
-title = 'Benjamín Burdach - Security Research'
-theme = 'hugo-bearclub'
+defaultContentLanguage = "en"
+theme = 'hugo-bearcub'
 
-[params]
-  ShowReadingTime = true
-  ShowPostNavLinks = true
+
+[params.author]
+  name = "Benjamín Burdach"
+
+[languages]
+  [languages.en]
+    contentDir = "content/en"
+    languageCode = "en-US"
+    languageName = "En"
+    title = "BenBurdach"
+    weight = 98
+
+  [languages.es]
+    contentDir = "content/es"
+    languageCode = "es-ES"
+    languageName = "Es"
+    title = "BenBurdach"
+    weight = 99
+
+
+# Config En
+[[languages.en.menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 1
+
+[[languages.en.menu.main]]
+  name = "Red Team"
+  url = "/red-team/"
+  weight = 2
+
+# Config Es
+[[languages.es.menu.main]]
+  name = "Acerca de"
+  url = "/es/about/"
+  weight = 1
+
+[[languages.es.menu.main]]
+  name = "Red Team"
+  url = "/es/red-team/"
+  weight = 2
+
+
+#[[menu.main]]
+#  name = "Blue Team"
+#  url = "/blue-team/"
+#  weight = 3
